@@ -53,3 +53,14 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.copyright {
+  position: sticky;
+  bottom: 0;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  font-size: 15px;
+  padding-bottom: 5px;
+}

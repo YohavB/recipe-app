@@ -35,9 +35,9 @@ function App() {
   return (
     <div className="App">
       <div className="title">
-      <h1>Wanna Cook Something ??</h1>
-      <br/>
-      <h2>Just search for an ingredient to get some recipes</h2>
+        <h1>Wanna Cook Something ??</h1>
+        <br />
+        <h2>Just search for an ingredient to get some recipes</h2>
       </div>
       <form onSubmit={getSearch} className="search-form">
         <input
@@ -61,6 +61,16 @@ function App() {
             ingredients={recipe.recipe.ingredients}
           />
         ))}
+      </div>
+      <div className="copyright">
+        © Copyright 2020 YohavB Designed by YohavB. Check the Code {""}
+        <a
+          href="https://github.com/YohavB/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Here.
+        </a>
       </div>
     </div>
   );
